@@ -1,0 +1,144 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: green;
+  background-image: url("https://c.pxhere.com/images/f6/19/df68e8a508b0207a93278b831ca5-1444407.jpg!d");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: serif;
+
+
+}
+li:hover{
+  background-color: black;
+  transition: 0.5s;
+  color: white;
+}
+#menu:hover{
+  color: white;
+  transition: 0.5s;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+div.tekst{
+  border: solid grey 5px;
+  border-radius: 50px;
+  width: 1000px;
+  height: 550px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.7;
+  margin-left: 15%;
+}
+div.contact{
+
+
+    border: solid grey 2px;
+    border-radius: 50px;
+    width: 400px;
+    height: 10s0px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.7;
+
+    margin-top: 5%
+
+}
+ul li {
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid grey;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 40px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+
+
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+
+
+}
+
+
+table{
+
+  margin-left: 25%;
+  margin-top: 5%;
+  background-color: white;
+  opacity: 0.7;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  font-size: 50px;
+
+
+}
+ th, td{
+   border: solid black 1px;
+
+ }
+ td:hover{
+  background-color: red;
+  transition: 0.5s;
+}
+img#djtafel{
+  border: solid pink 5px;
+  width: 600px;
+  height: 300px;
+  margin: -top: 5%
+
+}
+div.home{
+  border: solid grey 2px;
+  border-radius: 50px;
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.7;
+  margin-left: 15%;
+  margin-top: 5%
+}
+
+p.index{
+  padding-bottom: 1%;
+}
+
+h1.h1gaming{
+  padding: 2%;
+}
+
+p.fortnite{
+  padding: 2%;
+}
+
+p.inleiding{
+  padding: 2%;
+}
+p.brawhala{
+  padding: 2%;
+}
+p.rocketleaug{
+  padding: 2%;
+}
