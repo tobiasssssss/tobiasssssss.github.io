@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 *{
   padding: 0px;
   margin: 0px;
@@ -8,7 +9,9 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: serif;
+  font-family: 'Raleway', sans-serif;
+
+
 
 
 }
@@ -27,27 +30,27 @@ ul{
   list-style: none;
 }
 div.tekst{
-  border: solid grey 5px;
+  margin: 30px;
+  border: solid grey 1px;
   border-radius: 50px;
   width: 1000px;
-  height: 550px;
+  height: 560px;
   text-align: center;
   background-color: white;
   opacity: 0.7;
-  margin-left: 15%;
+
+
 }
 div.contact{
-
-
+    margin: 30px;
     border: solid grey 2px;
     border-radius: 50px;
-    width: 400px;
-    height: 10s0px;
+    width: 1000px;
+    height: 650px;
     text-align: center;
     background-color: white;
     opacity: 0.7;
 
-    margin-top: 5%
 
 }
 ul li {
@@ -106,19 +109,20 @@ img#djtafel{
   border: solid pink 5px;
   width: 600px;
   height: 300px;
-  margin: -top: 5%
+  margin-top: 5%
+
 
 }
 div.home{
+  margin: 30px;
   border: solid grey 2px;
   border-radius: 50px;
   width: 1000px;
-  height: 500px;
+  height: 650px;
   text-align: center;
   background-color: white;
   opacity: 0.7;
-  margin-left: 15%;
-  margin-top: 5%
+
 }
 
 p.index{
@@ -141,4 +145,23 @@ p.brawhala{
 }
 p.rocketleaug{
   padding: 2%;
+}
+
+#contact{
+  width: 900px;
+  height: 450px;
+  margin: 30px;
+
+
+
+}
+div.conteenter{
+  display: flex;
+  justify-content: center;
+}
+p{
+  padding: 10px;
+}
+h1{
+  padding: 20px;
 }
